@@ -1,1 +1,3 @@
 # Simulation-of-Evolutionary-Systems
+This small repo is a simulation of how evolution might progress, starting from nothing, and moving to one basic agent capable of replication and mutation.
+I start with a single agent which has a small spawn rate. Once it does spawn, it can either replicate, mutate or die. For any agent that is obtained as a result of the mutation of this agent or other agents, I do not assign a spawn value. They have the other three values, however. I simulate the evolution of the system over 500 timesteps.
